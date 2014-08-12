@@ -16,6 +16,11 @@ label {
     color: $labelColor;
 }
 
+a.navbar-brand img {
+    max-height: 50px;
+    margin-top: -20px;
+}
+
 input[type="submit"] {
     background-color: $buttonColor;
     border: 2px solid $buttonColor;
