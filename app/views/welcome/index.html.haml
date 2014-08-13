@@ -16,7 +16,7 @@
         %h2 mission
         %hr.star-primary
     .row
-      = render 'mission_text'
+      = render 'welcome/mission_text'
 %section#team.success
   .container
     .row
@@ -24,7 +24,7 @@
         %h2 The Team
         %hr.star-light/
     .row
-      = render 'team_images'
+      = render 'welcome/team_images'
 %section#contact
 .container
   .row
@@ -35,7 +35,12 @@
     .col-sm-8.col-sm-offset-2
   .row
     .col-sm-11.col-sm-offset-1
-      = render 'guest_form', :guest => @guest
+      = render 'welcome/guest_form', :guest => @guest
+    - if flash[:notice]
+      %div= flash[:notice]
+    - if flash[:error]
+      %div= flash[:error]
+
 
 
 
