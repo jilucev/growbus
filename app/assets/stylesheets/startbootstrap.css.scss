@@ -1,11 +1,9 @@
 $navColor: #012D3D;
 $yellowText: #f1c40f;
-$headerMarquee: #b84d45;
 $buttonBorder: #b84d45;
 $buttonColor: #DA5251;
 $buttonShadow: inset 0 -5px rgba(0,0,0, 0.1);
-$buttonHover: #20E6BF;
-$turquoise: #18bc9c;
+$buttonHover: BA4847;
 $labelColor: #A7ABAA;
 $defaultFont: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $fontSecondary: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -22,6 +20,12 @@ a.navbar-brand img {
     margin-top: -20px;
 }
 
+.footer-col.col-sm-4 a {
+    color: $buttonColor;
+    p {
+    color: $buttonColor;
+    }
+}
 input[type="submit"] {
     background-color: $buttonColor;
     border: 2px solid $buttonColor;
