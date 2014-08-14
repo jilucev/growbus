@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+$backdrop: #5BCBBB;
+
 body {
     overflow-x: hidden;
 }
@@ -63,7 +65,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: $backdrop;
 }
 
 hr.star-primary {
@@ -82,7 +84,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: $backdrop;
 }
 
 header .container {
@@ -184,7 +186,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: $backdrop;
 }
 
 @media(max-width:767px) {
