@@ -928,9 +928,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width: 100% \9;
-  max-width: 100%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   margin: 35px auto;
 }
