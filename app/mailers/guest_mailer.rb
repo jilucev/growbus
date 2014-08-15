@@ -9,6 +9,7 @@ class GuestMailer < ActionMailer::Base
 
   def guest_message(guest)
     @guest = guest
-    mail(from: "#{guest.email}", subject: "Growbus")
+    mail(from: "#{guest.email}", 
+        subject: "Growbus")
   end
 end
